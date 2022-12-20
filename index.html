@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">s
+    <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
     <div class="container">
@@ -11,17 +12,13 @@
             input[type=text], select {
               width: 100%;
               padding: 12px 20px;
-              margin: 8px 0;
+              margin: auto;
               display: inline-block;
-              border: 1px solid #ccc;
               border-radius: 4px;
-              box-sizing: border-box;
             }
             
             input[type=submit] {
               width: 100%;
-              background-color: #4CAF50;
-              color: white;
               padding: 14px 20px;
               margin: 8px 0;
               border: none;
@@ -30,12 +27,11 @@
             }
             
             input[type=submit]:hover {
-              background-color: #45a049;
+              background-color: #eef1ee;
             }
             
             div {
               border-radius: 5px;
-              background-color: #f2f2f2;
               padding: 20px;
             }
             </style>
@@ -48,17 +44,21 @@
                 <img src="/assets/images/logo.png"
                 width="100" 
                height="80">
-               
-                <input type="text" id="fname" name="firstname" placeholder="firstname ">
-            
-                
+               <div class="names">
+                <input type="text" id="fname" name="firstname" placeholder="firstname ">    
                 <input type="text" id="lname" name="lastname" placeholder=" last name..">
-            
+               </div>
+                
+            <div class="b">
                 <label for="gender">sex</label>
                 <select id="gender" name="sex">
                   <option value="female">Female</option>
                   <option value="male">Male</option>
                 </select>
+                <input type="text" id="phone number" name="phone number" placeholder=" phone number">
+            </div>
+               
+                
                 <input type="text" id="location" name="location" placeholder="location">
               
                 <input type="location" value="Location">

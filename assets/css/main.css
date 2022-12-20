@@ -1,3 +1,13 @@
 .container{
-    background-color: antiquewhite;
+    background-color: white;
+    margin: auto;
+    max-width: 600px;
+
+}
+
+.names{
+    display: flex;
+}
+.b{
+    display:flex;
 }
